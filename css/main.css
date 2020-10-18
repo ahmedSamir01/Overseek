@@ -83,6 +83,7 @@ body {font-family: "open sans", sans-serif}
 .header-area .links-container button:focus {outline: 0}
 .header-area .links-container button span {height: 3px;background-color: #fff;display: block;margin-bottom: 4px;border-radius: 4px}
 .landing-page .intro-text {text-transform: uppercase;position: absolute;z-index: 2;left: 50%;top: 50%;transform: translate(-50%, -50%);text-align: center;width: 95%}
+@media (max-width: 575.98px) {.landing-page .intro-text {width: 85%}}
 .landing-page .intro-text p {margin: 0;line-height: 27px}
 .landing-page .links li a:hover,
 .landing-page .links li.active a {color: var(--main-color)}
