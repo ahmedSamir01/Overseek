@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Overseek</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+    />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+  </head>
+
+  <body>
+    <!--start settungs bar-->
+
+    <div class="setting-box trans text-center">
+      <div class="icon"><i class="fa fa-gear"></i></div>
+
+      <div class="option-box">
+        <div class="color-list">
+          <h3 class="h-color">color</h3>
+          <ul>
+            <li data-color="#fe9c9c" class="active"></li>
+            <li data-color="green"></li>
+            <li data-color="cadetblue"></li>
+            <li data-color="sandybrown"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="option-box">
+        <div class="BG-rand">
+          <h4 class="capi h-color">random backgrounds</h4>
+          <button data-rand="yes" class="yes trans active">yes</button>
+          <button data-rand="no" class="no trans">no</button>
+        </div>
+      </div>
+      <div class="option-box">
+        <div class="nav-option">
+          <h4 class="capi h-color">navigation option</h4>
+          <button data-nav="yes" class="yes trans active">yes</button>
+          <button data-nav="no" class="no trans">no</button>
+        </div>
+      </div>
+      <button class="reset capi">reset</button>
+    </div>
+
+    <!--end settings bar-->
+
+    <!--start nav bullets-->
+
+    <div class="nav-bull">
+      <div class="bullet" data-section=".about">
+        <div class="toolTip">About us</div>
+      </div>
+      <div class="bullet trans" data-section=".skills">
+        <div class="toolTip">Our skills</div>
+      </div>
+      <div class="bullet trans" data-section=".gallery">
+        <div class="toolTip">Our gallery</div>
+      </div>
+      <div class="bullet trans" data-section=".timeline">
+        <div class="toolTip">Timeline</div>
+      </div>
+    </div>
+
+    <!--end nav bullets-->
+
+    <!--start landing page-->
+    <div class="landing-page white trans">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-area">
+          <div class="logo">Overseek</div>
+          <div class="links-container">
+              <ul class="links">
+                <li><a class="trans" href="#" data-section=".about">about</a></li>
+                <li>
+                  <a class="trans" href="#" data-section=".gallery">gallery</a>
+                </li>
+                <li><a class="trans" href="#" data-section=".feat">features</a></li>
+                <li><a class="trans" href="#" data-section=".contact">contact</a></li>
+              </ul>
+              <button class="toggle-butt">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </button>
+          </div>
+        </div>
+      </div>
+      <div class="intro-text">
+        <h2 class="basic-color h-style">we are creative agency</h2>
+        <p>
+          Nescius culpa malis hic quorum, magna iis te quae cernantur quo
+          incididunt fore arbitror ad id malis coniunctione.
+        </p>
+      </div>
+    </div>
+    <!--end landing page-->
+
+    <!--start about-->
+
+    <div class="container">
+      <div class="about padding">
+        <div class="info-box">
+          <h2 class="h-color h-style">about us</h2>
+          <p class="p-color">
+            A se coniunctione non et pariatur e incurreret, officia relinqueret
+            hic incididunt, anim est tempor. Id veniam minim hic incididunt,
+            voluptate multos fugiat o malis ita o magna tractavissent do
+            mentitum nulla deserunt admodum, expetendis velit incurreret
+            deserunt, ne singulis familiaritatem, probant.expetendis velit
+            incurreret deserunt, ne singulis familiaritatem, probant.
+          </p>
+        </div>
+        <div class="img-box">
+          <img src="imgs/about-us31.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <!--end about-->
+
+    <!--start skills-->
+
+    <div class="skills padding b-color">
+      <div class="container">
+        <h2 class="text-center h-style h-color">our skills</h2>
+        <div class="skills-box">
+          <div class="skills-name">Html</div>
+          <div class="skills-progress">
+            <span data-per="90%" class="trans"></span>
+          </div>
+        </div>
+        <div class="skills-box">
+          <div class="skills-name">CSS</div>
+          <div class="skills-progress">
+            <span data-per="80%" class="trans"></span>
+          </div>
+        </div>
+        <div class="skills-box">
+          <div class="skills-name">JS</div>
+          <div class="skills-progress">
+            <span data-per="75%" class="trans"></span>
+          </div>
+        </div>
+        <div class="skills-box">
+          <div class="skills-name">BT</div>
+          <div class="skills-progress">
+            <span data-per="70%" class="trans"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--end skills-->
+
+    <!--start gallery-->
+
+    <div class="container">
+      <div class="gallery padding">
+        <h2 class="text-center h-color h-style">gallery</h2>
+        <div class="img-box">
+          <img src="imgs/04.jpg" />
+          <img src="imgs/05.jpg" />
+          <img src="imgs/06.png" />
+          <img src="imgs/07.jpg" />
+          <img src="imgs/08.jpg" />
+          <img src="imgs/09.jpg" />
+          <img src="imgs/10.jpg" />
+          <img src="imgs/06.png" />
+        </div>
+      </div>
+    </div>
+
+    <!--end gallery-->
+
+    <div class="timeline padding b-color">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2020</div>
+
+          <div class="left">
+            <div class="content">
+              <h3 class="h-color capi">testing heading</h3>
+              <p class="p-color">
+                expetendis velit incurreret deserunt, ne singulis
+                familiaritatem, expetendis velit incurreret deserunt, ne
+                singulis familiaritatem.
+              </p>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div class="right">
+            <div class="content">
+              <h3 class="h-color capi">testing heading</h3>
+              <p class="p-color">
+                expetendis velit incurreret deserunt, ne singulis
+                familiaritatem, expetendis velit incurreret deserunt, ne
+                singulis familiaritatem.
+              </p>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div class="year">2019</div>
+          <div class="left">
+            <div class="content">
+              <h3 class="h-color capi">testing heading</h3>
+              <p class="p-color">
+                expetendis velit incurreret deserunt, ne singulis
+                familiaritatem, expetendis velit incurreret deserunt, ne
+                singulis familiaritatem.
+              </p>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div class="right">
+            <div class="content">
+              <h3 class="h-color capi">testing heading</h3>
+              <p class="p-color">
+                expetendis velit incurreret deserunt, ne singulis
+                familiaritatem, expetendis velit incurreret deserunt, ne
+                singulis familiaritatem.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--start features-->
+
+    <div class="feat padding text-center">
+      <h2 class="h-mcolor h-style">features</h2>
+      <div class="container">
+        <div class="feat-box">
+          <img src="imgs/Icon_01.png" />
+          <h3 class="h-color">development</h3>
+          <p>
+            expetendis velit incurreret deserunt, ne singulis familiaritatem.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/Icon_02.png" />
+          <h3 class="h-color">development</h3>
+          <p>
+            expetendis velit incurreret deserunt, ne singulis familiaritatem.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/Icon_03.png" />
+          <h3 class="h-color">development</h3>
+          <p>
+            expetendis velit incurreret deserunt, ne singulis familiaritatem.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/Icon_04.png" />
+          <h3 class="h-color">development</h3>
+          <p>
+            expetendis velit incurreret deserunt, ne singulis familiaritatem.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/Icon_05.png" />
+          <h3 class="h-color">development</h3>
+          <p>
+            expetendis velit incurreret deserunt, ne singulis familiaritatem.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/Icon_06.png" />
+          <h3 class="h-color">development</h3>
+          <p>
+            expetendis velit incurreret deserunt, ne singulis familiaritatem.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--end features-->
+
+    <!--start testimonials-->
+
+    <div class="testi b-color text-center">
+      <div class="container">
+        <h2 class="h-color h-style">testimonials</h2>
+        <div class="test-content">
+          <div class="test-box">
+            <p class="p-color">
+              singulis familiaritatem expetendis velit incurreret deserunt
+              singulis familiaritatem, ne singulis familiaritatem.
+            </p>
+            <img src="https://placehold.it/80/DDD" />
+            <div class="ident">
+              <h4>ahmed samir</h4>
+              <span class="h-color">front-end developer</span>
+            </div>
+          </div>
+          <div class="test-box">
+            <p class="p-color">
+              singulis familiaritatem expetendis velit incurreret deserunt
+              singulis familiaritatem, ne singulis familiaritatem.
+            </p>
+            <img src="https://placehold.it/80/DDD" />
+            <div class="ident">
+              <h4>ahmed samir</h4>
+              <span class="h-color">front-end developer</span>
+            </div>
+          </div>
+          <div class="test-box">
+            <p class="p-color">
+              singulis familiaritatem expetendis velit incurreret deserunt
+              singulis familiaritatem, ne singulis familiaritatem.
+            </p>
+            <img src="https://placehold.it/80/DDD" />
+            <div class="ident">
+              <h4>ahmed samir</h4>
+              <span class="h-color">front-end developer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--end testimonials-->
+
+   
+    <!--start contact-->
+    
+    <div class="contact padding text-center">
+       <div class="overlay"></div>
+        <div class="container">
+            
+            <h2 class="h-mcolor h-style">Contact</h2>
+            <form>
+                <div class="left">
+                    <input placeholder="text" type="text">
+                    <input placeholder="password" type="password">
+                    <input placeholder="email" type="email">
+                    <input placeholder="subject" type="subject">
+                </div>
+                <div class="right">
+                    <textarea placeholder="your message"></textarea>
+                    <input value="Submit" type="submit">
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    
+    <!--end contact-->
+   
+   <!--start footer-->
+   
+   <div class="footer capi text-center white">code by ahmed samir 2020</div>
+   
+   <!--end footer-->
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <script src="js/main-min.js"></script>
+  </body>
+</html>
